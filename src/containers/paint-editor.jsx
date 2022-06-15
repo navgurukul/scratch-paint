@@ -333,6 +333,7 @@ class PaintEditor extends React.Component {
                 onZoomOut={this.handleZoomOut}
                 onZoomReset={this.handleZoomReset}
             />
+            
         );
     }
 }

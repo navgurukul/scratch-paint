@@ -144,11 +144,11 @@ class ScrollableCanvas extends React.Component {
         return (
             <ScrollableCanvasComponent
                 hideScrollbars={this.props.hideScrollbars}
-                horizontalScrollLengthPercent={widthPercent}
-                horizontalScrollStartPercent={leftPercent}
+                // horizontalScrollLengthPercent={widthPercent}
+                // horizontalScrollStartPercent={leftPercent}
                 style={this.props.style}
-                verticalScrollLengthPercent={heightPercent}
-                verticalScrollStartPercent={topPercent}
+                // verticalScrollLengthPercent={heightPercent}
+                // verticalScrollStartPercent={topPercent}
                 onHorizontalScrollbarMouseDown={this.handleHorizontalScrollbarMouseDown}
                 onVerticalScrollbarMouseDown={this.handleVerticalScrollbarMouseDown}
             >

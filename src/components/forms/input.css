@@ -21,7 +21,7 @@ Edited to add input-range-small
     border-width: 1px;
     border-style: solid;
     border-color: $form-border;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 
     outline: none;
     cursor: text;

@@ -15,8 +15,8 @@ $border-radius: 0.25rem;
 }
 
 .edit-field-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 1.8rem;
     flex-grow: 1;
     vertical-align: middle;
 }

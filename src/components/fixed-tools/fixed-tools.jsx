@@ -199,7 +199,7 @@ const FixedToolsComponent = (props) => {
                     </InputGroup>
                 ) : null}
             </div>
-
+{/* 
             {isVector(props.format) ? (
                 <MediaQuery minWidth={layout.fullSizeEditorMinWidth}>
                     <InputGroup className={styles.row}>
@@ -219,17 +219,17 @@ const FixedToolsComponent = (props) => {
                         />
                     </InputGroup>
 
-                    {/* To be rotation point */}
-                    {/* <InputGroup>
+                    To be rotation point
+                    <InputGroup>
                         <LabeledIconButton
                             imgAlt="Rotation Point"
                             imgSrc={rotationPointIcon}
                             title="Rotation Point"
                             onClick={function () {}}
                         />
-                    </InputGroup> */}
+                    </InputGroup>
                 </MediaQuery>
-            ) : null}
+            ) : null} */}
             {/* {isVector(props.format) ?
                 <MediaQuery maxWidth={layout.fullSizeEditorMinWidth - 1}>
                     <InputGroup>

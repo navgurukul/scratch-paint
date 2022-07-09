@@ -7,16 +7,15 @@
     /* align-items: center; */
 }
 
-.group{
+.group {
     display: flex;
-
 }
 
 .costume-input {
     width: 15rem;
 }
 
-.heading{
+.heading {
     padding-right: 5px;
 }
 
@@ -40,7 +39,7 @@ $border-radius: 0.25rem;
     display: inline-block;
     border: 1px solid $ui-pane-border;
     border-radius: 0;
-    padding: .35rem;
+    /* padding: 0.35rem; */
 }
 
 [dir="ltr"] .button-group-button {
@@ -90,8 +89,8 @@ $border-radius: 0.25rem;
 }
 
 .button-group-button-icon {
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.20rem;
+    height: 1.20rem;
     vertical-align: middle;
 }
 
@@ -110,9 +109,8 @@ $border-radius: 0.25rem;
 
 .mod-menu-item {
     display: flex;
-    background-color: purple;
     margin: 0 -$grid-unit;
-    min-width: 6.25rem;
+    /* min-width: 6.25rem; */
     padding: calc(3 * $grid-unit);
     white-space: nowrap;
     cursor: pointer;

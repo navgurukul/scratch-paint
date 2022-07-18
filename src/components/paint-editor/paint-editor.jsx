@@ -204,8 +204,8 @@ const PaintEditorComponent = (props) => (
                         </Box>
                     ) : null}
                 </ScrollableCanvas>
-                {/* <div className={styles.canvasControls}>
-                    {isVector(props.format) ? (
+                <div className={styles.canvasControls}>
+                    {/* {isVector(props.format) ? (
                         <Button
                             className={styles.bitmapButton}
                             onClick={props.onSwitchToBitmap}
@@ -233,8 +233,8 @@ const PaintEditorComponent = (props) => (
                                 {props.intl.formatMessage(messages.vector)}
                             </span>
                         </Button>
-                    ) : null}
-                    Zoom controls
+                    ) : null} */}
+                    {/* Zoom controls */}
                     <InputGroup className={styles.zoomControls}>
                         <ButtonGroup>
                             <Button
@@ -272,7 +272,7 @@ const PaintEditorComponent = (props) => (
                             </Button>
                         </ButtonGroup>
                     </InputGroup>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
